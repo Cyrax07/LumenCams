@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- Navbar Start -->
+
+  <nav class="navbar fixed-top navbar-expand-lg py-4 py-lg-0 shadow" style="background-color: white;">
+    <div class="container px-4">
+      <h1 class="display-5 m-0 text-primary">Lumen<span class="text-secondary">Cams</span></h1>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#top-navbar"
+        aria-controls="top-navbar">
+        <i class="lni lni-grid-alt"></i>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar" aria-labelledby="top-navbarLabel">
+
+        <!--Navigation Bar Content-->
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#top-navbar"
+          aria-controls="top-navbar">
+          <div class="d-flex justify-content-between p-3">
+            <i class="lni lni-cross-circle"></i>
+          </div>
+        </button>
+        <ul class="navbar-nav ms-lg-auto p-4 p-lg-0">
+          <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+            <a class="nav-link" href="service.html">Services</a>
+          </li>
+          <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+            <a href="tel:+123456789" class="nav-item nav-link nav-contact bg-danger text-white px-5"><i
+                class="bi bi-telephone-outbound me-2"></i>+123 456 789
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar End -->
+
+  <!-- Carousel Start -->
+
+  <div class="container-fluid carousel slide" data-bs-wrap="true" data-bs-ride="carousel" id="carouselDemo">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="4500">
+        <img src="https://demo.htmlcodex.com/1798/cctv-website-template/img/carousel-1.jpg" class="w-100 img-fluid"
+          style="height: 550px;">
+        <div class="carousel-caption">
+          <h4 class="animate__animated animate__backInRight" style="animation-delay: 1s;">Best Security Services</h4>
+          <p class="animate__animated animate__backInLeft fw-bold" style="animation-delay: 2s;">Safe & Secure Home For
+            Your Family</p>
+          <p class="animate__animated animate__backInRight" style="animation-delay: 3s;"><a
+              class="btn btn-danger col-sm-2" href="contact.html" role="button">Contact Us</a></p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="4500">
+        <img src="https://demo.htmlcodex.com/1798/cctv-website-template/img/carousel-2.jpg" class="w-100 img-fluid"
+          style="height: 550px;">
+        <div class="carousel-caption">
+          <h4 class="animate__animated animate__backInRight" style="animation-delay: 1s;">Best Security Services</h4>
+          <p class="animate__animated animate__backInLeft fw-bold" style="animation-delay: 2s;">Safe & Secure Home For
+            Your Family</p>
+          <p class="animate__animated animate__backInRight" style="animation-delay: 3s;"><a
+              class="btn btn-danger col-sm-2" href="contact.html" role="button">Contact Us</a></p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="https://demo.htmlcodex.com/1798/cctv-website-template/img/carousel-3.jpg" class="w-100 img-fluid"
+          style="height: 550px;">
+        <div class="carousel-caption">
+          <h4 class="animate__animated animate__backInRight" style="animation-delay: 1s;">Best Security Services</h4>
+          <p class="animate__animated animate__backInLeft fw-bold" style="animation-delay: 2s;">Safe & Secure Home For
+            Your Family</p>
+          <p class="animate__animated animate__backInRight" style="animation-delay: 3s;"><a
+              class="btn btn-danger col-sm-2" href="contact.html" role="button">Contact Us</a></p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselDemo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselDemo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+    <div class="carousel-indicators">
+      <button type="button" class="active" data-bs-target="#carouselDemo" data-bs-slide-to="0"></button>
+      <button type="button" data-bs-target="#carouselDemo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselDemo" data-bs-slide-to="2"></button>
+    </div>
+  </div>
+
+  <!-- Carousel End -->
+
+  <!-- About Start -->
+
+  <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+      <div class="row gx-5">
+        <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+          <div class="position-relative h-100">
+            <img class="position-absolute w-100 h-100 img-fluid rounded animate__animated animate__backInLeft"
+              style="animation-delay: 0.2s;"
+              src="https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8958826/og_image/optimized/Responsive_Design-1200x628-d1539e7beb483b5f54cb20c84f6ed2f4.png"
+              style="object-fit: cover;">
+          </div>
+        </div>
+        <div class="col-lg-7 animate__animated animate__bounceInRight">
+          <div class="mb-4">
+            <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h5>
+            <h1 class="display-5 mb-0">We Offers Quality CCTV Systems & Services</h1>
+          </div>
+          <h4 class="text-body fst-italic mb-4">Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit
+            clita duo justo magna dolore</h4>
+          <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et
+            eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et
+            tempor eirmod magna dolore erat amet et magna</p>
+          <div class="row g-3 animate__animated animate__bounceInRight">
+            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
+              <div
+                class="bg-primary d-flex flex-column justify-content-center text-center border-bottom border-5 border-primary rounded p-3"
+                style="height: 200px;">
+                <p class="text-center"><ion-icon name="star" style="font-size: 40px; color: white;"></ion-icon></p>
+                <h4 class="text-white mb-0">Years Experience</h4>
+              </div>
+            </div>
+            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.9s">
+              <div
+                class="bg-danger d-flex flex-column justify-content-center text-center border-bottom border-5 border-danger rounded p-3"
+                style="height: 200px;">
+                <p class="text-center"><ion-icon name="trophy" style="font-size: 40px; color: white;"></ion-icon></p>
+                <h4 class="text-white mb-0">Award Winning</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--About End-->
+
+  <!-- Services Start -->
+
+  <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+      <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+        <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Services</h5>
+        <h1 class="display-5 mb-0">Our Excellent CCTV Security Services</h1>
+      </div>
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+          <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+            <div class="position-relative p-5">
+              <i class="flaticon-cctv d-block display-1 fw-normal text-secondary mb-3"></i>
+              <h5 class="text-primary mb-0">CCTV</h5>
+              <h3 class="mb-3">Installation</h3>
+              <p class="fw-bold">At <span class="text-primary">Lumen<span class="text-danger">Cams</span></span>, we
+                specialize in providing high-quality CCTV installation solutions to help protect your home or business.
+                Whether you need surveillance for residential, commercial, or industrial spaces, we offer customized
+                CCTV systems that meet your specific security needs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+          <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+            <div class="position-relative p-5">
+              <i class="flaticon-surveillance d-block display-1 fw-normal text-secondary mb-3"></i>
+              <h5 class="text-primary mb-0">CCTV</h5>
+              <h3 class="mb-3">Configuration</h3>
+              <p class="fw-bold">CCTV configuration refers to the process of setting up your CCTV system to ensure that
+                cameras, recording devices, and monitoring features function as expected. This involves configuring
+                camera settings, network settings, recording schedules, motion detection, and remote access.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+          <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+            <div class="position-relative p-5">
+              <i class="flaticon-camera d-block display-1 fw-normal text-secondary mb-3"></i>
+              <h5 class="text-primary mb-0">CCTV</h5>
+              <h3 class="mb-3">Maintenance</h3>
+              <p class="fw-bold">Maintaining your CCTV system is crucial to ensure it continues to operate effectively
+                and provides reliable surveillance coverage over time. Regular maintenance helps identify and fix
+                potential issues before they become major problems, ensuring that your system provides consistent
+                security. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+          <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+            <div class="position-relative p-5">
+              <i class="flaticon-double d-block display-1 fw-normal text-secondary mb-3"></i>
+              <h5 class="text-primary mb-0">CCTV</h5>
+              <h3 class="mb-3">Repair & Service</h3>
+              <p class="fw-bold">CCTV repair and service is a critical part of maintaining a surveillance system. Over
+                time, even the best CCTV systems may experience issues such as camera malfunctions, poor image quality,
+                storage problems, or network failures. Regular maintenance and quick repairs can help ensure that the
+                system remains operational</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+          <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+            <div class="position-relative p-5">
+              <i class="flaticon-security-system d-block display-1 fw-normal text-secondary mb-3"></i>
+              <h5 class="text-primary mb-0">CCTV</h5>
+              <h3 class="mb-3">Monitoring</h3>
+              <p class="fw-bold">CCTV Monitoring refers to the active or passive surveillance of video footage captured
+                by closed-circuit television cameras. It involves observing live video feeds or recorded footage for
+                security, safety, and investigative purposes. CCTV monitoring can be done manually by security personnel
+                or remotely using automated software.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+          <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+            <div class="position-relative p-5">
+              <i class="flaticon-recorder d-block display-1 fw-normal text-secondary mb-3"></i>
+              <h5 class="text-primary mb-0">CCTV</h5>
+              <h3 class="mb-3">Access Control</h3>
+              <p class="fw-bold">CCTV Access Control refers to the integration of surveillance cameras (CCTV) and access
+                control systems (ACS) to enhance security at entry points, such as doors, gates, or other controlled
+                access points. The integration of these two systems allows for a more robust security solution by not
+                only monitoring activity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services End -->
+
+  <!-- Pricing Plan Start -->
+
+  <div class="container-fluid py-5 animate__animated animate__slideInLeft" data-wow-delay="0.1s"
+    style="margin-bottom: 75px;">
+    <div class="container">
+      <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+        <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Pricing Plan</h5>
+        <h1 class="display-5 mb-0">Pricing Plan For CCTV Security Services</h1>
+      </div>
+      <div class="row g-5">
+        <div class="col-lg-4 animate__animated animate__slideInLeft" data-wow-delay="0.3s">
+          <div class="position-relative border border-primary rounded">
+            <div class="bg-primary text-center pt-5 pb-4">
+              <h3 class="text-white">Basic Plan</h3>
+              <h1 class="display-4 text-white">
+                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>49<small
+                  class="align-bottom" style="font-size: 16px; line-height: 40px;">/
+                  Mo</small>
+              </h1>
+            </div>
+            <div class="text-center py-5">
+              <p class="border-bottom border-light mb-2 pb-2 fw-bold">Number Of Cameras : 2 to 4</p>
+              <p class="border-bottom border-light mb-2 pb-2 fw-bold">Camera Type : Basic HD (720p or 1080p)</p>
+              <p class="border-bottom border-light mb-2 pb-2 fw-bold">Recording : Basic DVR or NVR upto 1TB Storage</p>
+              <p class="border-bottom border-light mb-2 pb-2 fw-bold">Viewing : Local Viewing via Monitor and remote
+                access via Smartphone or Tablet App</p>
+            </div>
+            <a href="" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Order
+              Now</a>
+          </div>
+        </div>
+        <div class="col-lg-4 animate__animated animate__slideInLeft" data-wow-delay="0.6s">
+          <div class="position-relative border border-danger rounded">
+            <div class="bg-danger text-center pt-5 pb-4">
+              <h3 class="text-white">Standard Plan</h3>
+              <h1 class="display-4 text-white">
+                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>49<small
+                  class="align-bottom" style="font-size: 16px; line-height: 40px;">/
+                  Mo</small>
+              </h1>
+            </div>
+            <div class="text-center py-5">
+              <p class="border-bottom border-light mb-2 pb-2 fw-bold">Number Of Cameras : 4 to 8</p>
+              <p class="border-bottom border-light mb-2 pb-2 fw-bold">Camera Type : HD 1080p cameras with infrared night
+                vision</p>
+              <p class="border-bottom border-light mb-2 pb-2 fw-bold">Recording : Basic DVR or NVR upto 2TB Storage</p>
+              <p class="border-bottom border-light mb-2 pb-2 fw-bold">Viewing : Local Viewing via Monitor and remote
+                access via Smartphone or Tablet App</p>
+            </div>
+            <a href="" class="btn btn-danger py-2 px-4 position-absolute top-100 start-50 translate-middle">Order
+              Now</a>
+          </div>
+        </div>
+        <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+          <div class="position-relative border border-primary rounded">
+            <div class="bg-primary text-center pt-5 pb-4">
+              <h3 class="text-white">Extended Plan</h3>
+              <h1 class="display-4 text-white">
+                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>49<small
+                  class="align-bottom" style="font-size: 16px; line-height: 40px;">/
+                  Mo</small>
+              </h1>
+            </div>
+            <div class="text-center py-5">
+              <p class="border-bottom border-light mb-2 pb-2 fw-bold">Number Of Cameras : 8 to 12</p>
+              <p class="border-bottom border-light mb-2 pb-2 fw-bold">Camera Type : HD 1080p or 4K cameras for clearer
+                images, with motion detection and night vision</p>
+              <p class="border-bottom border-light mb-2 pb-2 fw-bold">Recording : Basic DVR or NVR upto 2TB+ Storage</p>
+              <p class="border-bottom border-light mb-2 pb-2 fw-bold">Viewing : Local Viewing via Monitor and remote
+                access via Smartphone or Tablet App</p>
+            </div>
+            <a href="" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Order
+              Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pricing Plan End -->
+
+  <!-- Team Start -->
+
+  <div class="container-fluid py-5 animate__animated animate__slideInRight" data-wow-delay="0.1s">
+    <div class="container">
+      <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+        <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Team Members</h5>
+        <h1 class="display-5 mb-0">Our Professional Team Members</h1>
+      </div>
+      <div class="row g-5">
+        <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+          <div class="position-relative rounded-top">
+            <img class="img-fluid rounded-top w-100"
+              src="https://thumb.ac-illust.com/7d/7de5b118c5020d8903af7f8706c0124a_t.jpeg" alt="">
+            <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
+              <a class="btn btn-outline-danger btn-square m-1" href="https://www.twitter.com/" target="_blank"><ion-icon
+                  name="logo-twitter"></ion-icon></a>
+              <a class="btn btn-outline-danger btn-square m-1" href="https://www.facebook.com/"
+                target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a class="btn btn-outline-danger btn-square m-1" href="https://www.instagram.com/"
+                target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+          </div>
+          <div class="bg-primary text-center rounded-bottom p-4">
+            <h3 class="text-white">Full Name</h3>
+            <p class="text-white m-0">Designation</p>
+          </div>
+        </div>
+        <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+          <div class="position-relative rounded-top">
+            <img class="img-fluid rounded-top w-100"
+              src="https://thumb.ac-illust.com/7d/7de5b118c5020d8903af7f8706c0124a_t.jpeg" alt="">
+            <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
+              <a class="btn btn-outline-danger btn-square m-1" href="https://www.twitter.com/" target="_blank"><ion-icon
+                  name="logo-twitter"></ion-icon></a>
+              <a class="btn btn-outline-danger btn-square m-1" href="https://www.facebook.com/"
+                target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a class="btn btn-outline-danger btn-square m-1" href="https://www.instagram.com/"
+                target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+          </div>
+          <div class="bg-primary text-center rounded-bottom p-4">
+            <h3 class="text-white">Full Name</h3>
+            <p class="text-white m-0">Designation</p>
+          </div>
+        </div>
+        <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+          <div class="position-relative rounded-top">
+            <img class="img-fluid rounded-top w-100"
+              src="https://thumb.ac-illust.com/7d/7de5b118c5020d8903af7f8706c0124a_t.jpeg" alt="">
+            <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
+              <a class="btn btn-outline-danger btn-square m-1" href="https://www.twitter.com/" target="_blank"><ion-icon
+                  name="logo-twitter"></ion-icon></a>
+              <a class="btn btn-outline-danger btn-square m-1" href="https://www.facebook.com/"
+                target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a class="btn btn-outline-danger btn-square m-1" href="https://www.instagram.com/"
+                target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+          </div>
+          <div class="bg-primary text-center rounded-bottom p-4">
+            <h3 class="text-white">Full Name</h3>
+            <p class="text-white m-0">Designation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Team End -->
+
+  <!-- Testimonial Start -->
+
+  <div class="container">
+    <div class="text-center mx-auto mb-5 pb-4" style="max-width: 600px;">
+      <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h5>
+      <h1 class="display-5 mb-0">What People Say About Our Services</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card text-center m-1" style="background: palevioletred;">
+          <img class="img-fluid mx-auto rounded-circle"
+            src="https://demo.htmlcodex.com/1798/cctv-website-template/img/testimonial-3.jpg"
+            style="width: 100px; height: 100px;">
+          <div class="card-body testimonial-text bg-light rounded p-4 mt-n5">
+            <p class="card-text mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet
+              amet eirmod eos labore diam</p>
+            <h4 class=" text-truncate text-center">Client Name</h4>
+            <i>Occupation</i>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card text-center m-1" style="background: palevioletred;">
+          <img class="img-fluid mx-auto rounded-circle"
+            src="https://demo.htmlcodex.com/1798/cctv-website-template/img/testimonial-1.jpg"
+            style="width: 100px; height: 100px;">
+          <div class="card-body testimonial-text bg-light rounded p-4 mt-n5">
+            <p class="card-text mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet
+              amet eirmod eos labore diam</p>
+            <h4 class="card-text text-truncate">Client Name</h4>
+            <i>Occupation</i>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card text-center m-1" style="background: palevioletred;">
+          <img class="img-fluid mx-auto rounded-circle"
+            src="https://thumb.ac-illust.com/7d/7de5b118c5020d8903af7f8706c0124a_t.jpeg"
+            style="width: 100px; height: 100px;">
+          <div class="card-body testimonial-text bg-light rounded p-4 mt-n5">
+            <p class="card-text mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet
+              amet eirmod eos labore diam</p>
+            <h4 class="card-text text-truncate">Client Name</h4>
+            <i>Occupation</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonial End -->
+
+  <!-- Footer Start -->
+
+  <div class="container-fluid bg-dark text-light mt-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container pt-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h3 class="text-white mb-4">Quick Links</h3>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-light mb-2" href="index.html" style="text-decoration: none;"><ion-icon
+                name="arrow-forward-outline" class="text-primary me-2"></ion-icon>Home</a>
+            <a class="text-light mb-2" href="about.html" style="text-decoration: none;"><ion-icon
+                name="arrow-forward-outline" class="text-primary me-2"></ion-icon>About Us</a>
+            <a class="text-light mb-2" href="service.html" style="text-decoration: none;"><ion-icon
+                name="arrow-forward-outline" class="text-primary me-2"></ion-icon>Our Services</a>
+            <a class="text-light mb-2" href="#" style="text-decoration: none;"><ion-icon name="arrow-forward-outline"
+                class="text-primary me-2"></ion-icon>Latest Blog</a>
+            <a class="text-light" href="contact.html" style="text-decoration: none;"><ion-icon
+                name="arrow-forward-outline" class="text-primary me-2"></ion-icon>Contact Us</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h3 class="text-white mb-4">Popular Links</h3>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-light mb-2" href="index.html" style="text-decoration: none;"><ion-icon
+                name="arrow-forward-outline" class="text-primary me-2"></ion-icon>Home</a>
+            <a class="text-light mb-2" href="about.html" style="text-decoration: none;"><ion-icon
+                name="arrow-forward-outline" class="text-primary me-2"></ion-icon>About Us</a>
+            <a class="text-light mb-2" href="service.html" style="text-decoration: none;"><ion-icon
+                name="arrow-forward-outline" class="text-primary me-2"></ion-icon>Our Services</a>
+            <a class="text-light mb-2" href="#" style="text-decoration: none;"><ion-icon name="arrow-forward-outline"
+                class="text-primary me-2"></ion-icon>Latest Blog</a>
+            <a class="text-light" href="contact.html" style="text-decoration: none;"><ion-icon
+                name="arrow-forward-outline" class="text-primary me-2"></ion-icon>Contact Us</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h3 class="text-white mb-4">Get In Touch</h3>
+          <p class="mb-2"><ion-icon name="location-outline" class="text-primary me-2"></ion-icon>Dubai, UAE
+          </p>
+          <p class="mb-2"><ion-icon name="mail-open-outline" class="text-primary me-2"></ion-icon><a
+              href="mailto:LumenCams@company.com" target="_blank"
+              style="text-decoration: none; color: white;">LumenCams@company.com</a></p>
+          <a href="tel:+012 345 67890" class="mb-0" style="color: white; text-decoration: none;"><ion-icon
+              name="call-outline" class="text-primary me-2"></ion-icon>+012 345 67890
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h3 class="text-white mb-4">Follow Us</h3>
+          <div class="d-flex">
+            <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="https://www.twitter.com/"
+              target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="https://www.facebook.com/"
+              target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="https://www.linkedin.com/"
+              target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.instagram.com/"
+              target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-primary text-light py-4">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-md-0">&copy; <a class="text-white border-bottom" style="text-decoration: none;"
+              href="index.html">LumenCams</a>. All Rights
+            Reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p class="mb-0">Designed by <a class="text-white border-bottom" style="text-decoration: none;" target="_blank"
+              href="index.html">Lumen</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer End -->
+
+  <!-- Template Javascript -->
+
+  <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+    data-cf-settings="d52ddfe3843c329e9b30b341-|49" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
